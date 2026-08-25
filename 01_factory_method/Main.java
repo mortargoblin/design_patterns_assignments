@@ -12,7 +12,7 @@ public class Main {
     return map;
   }
 
-  public static void main() {
+  public static void main(String[] args) {
     Map city = createMap(30, 20, 'c');
     Map wild = createMap(30, 20, 'w');
 
