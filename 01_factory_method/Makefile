@@ -8,7 +8,7 @@ all: $(OUT)
 $(OUT): $(IN)
 	$(JC) $(IN)
 
-run:
+run: $(OUT)
 	java Main
 
 clean:
